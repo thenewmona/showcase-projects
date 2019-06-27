@@ -10,5 +10,6 @@ So I am going to start small and go big.
 
 6/27/2019
  [Making an attractive transparent button with CSS | Glowing Button](https://www.youtube.com/watch?v=td9fZ0hYhQg&feature=youtu.be) 
+ 
 finished first short project- created glowing buttons 
 need to figure out how each can have it's own color, and work on centering in the middle of the page instead of at the top 

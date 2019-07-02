@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<!-- BOOTSTRAP  FILES  : YOU CAN GET THE SAME FROM  https://getbootstrap.com/docs/4.1/getting-started/download/   -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<style>
+.para
+{
+background-image: url('ch.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position: center;
+background-size:cover 
+}
+.outerbox
+{
+    background: black;
+    width:420px;
+    height:450px;
+    position:absolute;
+    top:15%;
+    left:35%;
+    padding:20px 30px;
+    border-radius:50px;
+}
+.avatarimg
+{
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 15px;
+    height:35%;
+    width:47%;
+
+}
+.box{
+background: transparent;
+width:95%;
+overflow:hidden;
+font-size:18px;
+font-variant: none;
+border-bottom: 1px solid blue;
+border-top:none;
+border-left:none;
+border-right:none;
+color:aquamarine;
+}
+</style>
+
+<body class="para">
+<div class="outerbox">
+    <center><img src="avatar.png" class="avatarimg"></center><br><br>
+    <span style="color:white;font-size:18px;font-variant:small-caps;">
+       <span class="glyphicon glyphicon-user"></span>&nbsp;Username<br><br>
+    <input type="text" class="box" name="username" placeholder="username"></span> 
+    </span><br><BR><BR>
+        <span style="color:white;font-size:18px;font-variant:small-caps;">
+                <span class="glyphicon glyphicon-lock"></span>&nbsp;Password<br><br>
+             <input type="password" class="box" name="pass" placeholder="pass"></span> 
+             </span><br><BR><BR>
+    <center><button type="submit" class="btn btn-primary" style="padding:10px 55px">Login</button></center>
+<br>
+<span style="color:red;font-size:12px;float:right;"><a href="#" style="color:red">Forget Password !</a></span>
+</div>
+</body>
+</html>

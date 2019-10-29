@@ -47,7 +47,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a254fb",endCo
   transform: translate(-50%,-50%);
   color: #fafafa;
   }
-  
+
 .text h1{
     font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    line-height: 2em;    
+}
+.text p{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    font-family: 'Open snas',sans-serif;
+
 }

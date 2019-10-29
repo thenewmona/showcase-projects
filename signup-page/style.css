@@ -62,3 +62,49 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a254fb",endCo
     font-family: 'Open snas',sans-serif;
 
 }
+form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+form label{
+    color: #ba6fb8;
+font-size: 1.2em;
+margin-bottom: 25px;
+}
+
+form input{
+    width: 100%;
+  padding: 8px 10px; 
+  margin: 10px 0;
+  border-radius: 3px;
+  border: 1px solid #ba5fbb;
+  box-shadow: 0 2px 8px rgba(65,65,65,.3);
+  font-size: 1.2em;
+}
+form h1{
+    color: #ba5fb8;
+    font-size: 1.2em;
+    font-family: 'Open snas',sans-serif;
+    margin-bottom: 25px;
+}
+form button{
+    text-align: center;
+    width: 50%;
+    border-radius: 30px;
+    padding: 5px 0;
+    font-family: 'Open snas',sans-serif;
+    background-color: #ba6fb8;
+    color:#fafafa;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    cursor: pointer;
+}
